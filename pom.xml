@@ -27,7 +27,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <artifactId>maven-compiler-plugin</artifactId>
         <version>2.3.2</version>
         <configuration>
-          <executable>python</executable>
+          <executable>C:/Users/Ajay/AppData/Local/Programs/Python/Python35-32/python.exe/<executable>
         </configuration>
       </plugin>
       <plugin>
@@ -37,7 +37,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <executions>
             <execution>
                 <configuration>
-                    <executable>python</executable>
+                    <executable>C:/Users/Ajay/AppData/Local/Programs/Python/Python35-32/python.exe/</executable>
                     <workingDirectory>/Users/Ajay/Pom.xml</workingDirectory>
                     <arguments>
                         <argument>helloworld.py</argument>
